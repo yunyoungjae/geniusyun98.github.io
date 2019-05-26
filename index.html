@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
 
@@ -8,190 +8,282 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>My Project - 대학생 기부 플랫폼</title>
+  <title>Resume - Start Bootstrap Theme</title>
 
-  <!-- Bootstrap Core CSS -->
+  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">내 프로젝트 소개하기</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">프로젝트 개요</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">왜?</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">무엇을?</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">어떻게?</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">기대효과</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">내 프로젝트 소개하기</h1>
-      <h3 class="mb-5">
-        <em>대학생들의 건강한 기부 문화를 구축하기 위한 기부 플랫폼</em>
-      </h3>
-    </div>
-    <div class="overlay"></div>
-  </header>
+  <div class="container-fluid p-0">
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>왜 이런 프로젝트를 생각하게 되었나요?</h2>
-          <p class="lead mb-5">대학생들이 국제 구호 단체를 통해 하는 금전적 기부 문화가 건강하지 못하다는 것에 문제를 인식했습니다.</p>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Clarence
+          <span class="text-primary">Taylor</span>
+        </h1>
+        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+          <a href="mailto:name@email.com">name@email.com</a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">무엇을?</h3>
-        <h2 class="mb-5">대학생들의 기부 플랫폼</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>기부 sns</strong>
-          </h4>
-          <p class="text-faded mb-0">각자 자신만의 방식으로 기부 혹은 봉사를 진행하고 sns를 통해 나누자!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>재능 기부 위주</strong>
-          </h4>
-          <p class="text-faded mb-0">금전적 기부가 아닌 재능 위주의 기부를 하자.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>추천 기능</strong>
-          </h4>
-          <p class="text-faded mb-0">다른 사람의 기부 혹은 봉사내용에 대해
-            <i class="fas fa-heart"></i>
-            좋아요 표현을 하여 더 많은 사람들이 알 수 있게 추천하기!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>크라우드펀딩방식</strong>
-          </h4>
-          <p class="text-faded mb-0">좋은 기부 혹은 봉사 계획이 있는데 예산이 부족하다면 크라우드펀딩방식을 통해 해결하자.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">어떻게?</h3>
-        <h2 class="mb-5">어떻게 이게 가능하죠?</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>색다른 봉사 경험이 모여 더 큰 가치를!</h2>
-                <p class="mb-0">국제구호단체를 통한 금전적 기부에만 그치는 기부문화는 그만!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
           </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Ice Cream</h2>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          <a href="#">
+            <i class="fab fa-github"></i>
           </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
           </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
           </a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
-    </div>
-  </footer>
+    <hr class="m-0">
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Senior Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2013 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Developer</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2011 - March 2013</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Junior Web Designer</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2010 - December 2011</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Colorado Boulder</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science - Web Development Track</div>
+            <p>GPA: 3.23</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2006 - May 2010</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">James Buchanan High School</h3>
+            <div class="subheading mb-3">Technology Magnet Program</div>
+            <p>GPA: 3.56</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2002 - May 2006</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Google Analytics Certified Developer</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Mobile Web Specialist - Google Certification</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2<sup>nd</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - James Buchanan High School - Hackathon 2006</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            3<sup>rd</sup>
+            Place - James Buchanan High School - Hackathon 2005</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -201,7 +293,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/resume.min.js"></script>
 
 </body>
 
